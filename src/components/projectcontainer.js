@@ -16,10 +16,10 @@ const ProjectContainer = () => {
             <h1 className="font-kanit text-2xl text-gray-300">{proj.title}</h1>
             <p className="">{proj.desc}</p>
 
-            <div className="flex flex-row bg-vsTheme-darkest justify-evenly mt-2 rounded-xl font-semibold w-full md:text-base xs:text-sm">
+            <div className="p-1 flex flex-row bg-vsTheme-darkest justify-evenly mt-2 rounded-xl font-semibold w-full md:text-base xs:text-sm">
               {proj.demo && (
                 <a href={proj.demo} target="_blank" rel="noreferrer">
-                  LIVE DEMO
+                  LIVE
                 </a>
               )}
 

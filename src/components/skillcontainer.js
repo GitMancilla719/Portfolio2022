@@ -1,6 +1,23 @@
-const frontend = ["ReactJS", "TailwindCSS", "Redux", "RTK"];
-const backend = ["NodeJS", "ExpressJS", "GraphQL", "MongoDB", "PostgreSQL"];
-const tools = ["REST API's", "Docker", "Git", "Github", "Postman"];
+const stack = [
+  "ReactJS",
+  "TailwindCSS",
+  "Redux",
+  "RTK",
+  "TypeScript",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "NodeJS",
+  "ExpressJS",
+  "GraphQL",
+  "MongoDB",
+  "PostgreSQL",
+  "REST API's",
+  "Docker",
+  "Git",
+  "Github",
+  "Postman",
+];
 
 const SkillsContainer = () => {
   return (
@@ -11,32 +28,10 @@ const SkillsContainer = () => {
 
       <div className="flex flex-col justify-start text-gray-300">
         <div className="flex flex-row flex-wrap items-center my-1">
-          {frontend.map((stack) => (
+          {stack.map((stack) => (
             <div
               key={stack}
-              className="m-1 w-fit text-center border-2 border-gray-500 rounded-full px-5 py-1"
-            >
-              {stack}
-            </div>
-          ))}
-        </div>
-
-        <div className="flex flex-row flex-wrap items-center my-1">
-          {backend.map((stack) => (
-            <div
-              key={stack}
-              className="m-1 w-fit text-center border-2 border-gray-500 rounded-full px-5 py-1"
-            >
-              {stack}
-            </div>
-          ))}
-        </div>
-
-        <div className="flex flex-row flex-wrap items-center my-1">
-          {tools.map((stack) => (
-            <div
-              key={stack}
-              className="m-1 w-fit text-center border-2 border-gray-500 rounded-full px-5  py-1"
+              className="m-1 my-2 w-fit text-center border-2 border-gray-500 rounded-full px-5 py-1"
             >
               {stack}
             </div>

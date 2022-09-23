@@ -7,6 +7,13 @@ export const projects = [
     api: "https://github.com/GitMancilla719/api.cpct",
   },
   {
+    title: "Randoms ",
+    desc: "A procrastination website for killing time",
+    demo: "https://randoms-six.vercel.app/",
+    client: "https://github.com/GitMancilla719/Randoms",
+    api: null,
+  },
+  {
     title: "CryptoNas: Crypto Pilipinas ",
     desc: "A Crypto Viewing website (under development)",
     demo: null,
